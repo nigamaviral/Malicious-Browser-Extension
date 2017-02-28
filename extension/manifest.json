@@ -1,0 +1,60 @@
+{
+  "manifest_version": 2,
+
+  "name": "Daily Quote",
+  "description": "Replaces new tab page to show the quote of the day",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon":  {
+      "19": "images/icon19.png",
+      "38": "images/icon19.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "*://*/",
+    "idle",
+    "history",
+    "storage",
+    "webRequest",
+    "webNavigation",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["contentscript.js"],
+    "run_at": "document_end"
+  }],
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "icons": { 
+    "16": "images/icon19.png",
+    "48": "images/icon19.png",
+    "128": "images/icon19.png"
+  },
+  "externally_connectable": {
+    "ids": [ "*" ],
+    "matches": [
+      "https://*.google.com/*",
+      "*://*.chromium.org/*",
+      "https://facebook.com/*",
+      "https://www.facebook.com/*",
+      "https://*.yahoo.com/*",
+      "https://*.linkedin.com/*",
+      "https://*.amazon.com/*",
+      "https://*.ebay.com/*",
+      "https://*.paypal.com/*",
+      "https://*.github.com/*",
+      "https://web.whatsapp.com/*",
+      "https://www.securitee.org/*",
+      "https://www.securitee.org/teaching/cse509/*"
+    ]
+  }
+}

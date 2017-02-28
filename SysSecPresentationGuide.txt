@@ -1,0 +1,16 @@
+> Keep the userid copied - , and the extension id - 
+> Quote:: Open a new tab and show it
+> Server:: Open kibana: http://172.24.16.81:5601/
+> Dashboard:: Show online users dashboard
+> Rerouting:: Open - www.virustotal.com , www.rackspace.com
+> History:: Visit a new link and show the entry in History tab
+> Steal userid/passwd::  - Visit www.facebook.com , enter userid/pass
+> Steal Cookies:: Open cookie table and show for id
+> Dynamic phishing - 
+>>>> Overlay Phishing https://www.securitee.org/teaching/cse509/
+>>>> Download popup - Ask prof for a new site to add to phishing list  - open the site  - download malicious file
+						(OR use www.securitee.org )
+>>>> Javascript dom injection https://www.securitee.org/teaching/cse509/
+>>>> Inbox Phishing www.mail.google.com
+	 Gmail username:  secure.soteria
+		   password:	soteria01

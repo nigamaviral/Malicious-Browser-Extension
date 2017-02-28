@@ -1,0 +1,17 @@
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    color:  #003A3A;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h2,h3 {
+    color: #008080;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
